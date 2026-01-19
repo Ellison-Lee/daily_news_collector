@@ -2,11 +2,10 @@
 
 <div align="center">
 
-![Chrome](https://img.shields.io/badge/Chrome-Supported-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Ellison--Lee-181717?style=for-the-badge&logo=github&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Cursor](https://img.shields.io/badge/Cursor-IDE-000000?style=for-the-badge&logo=cursor&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-Supported-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Chrome](https://img.shields.io/badge/Chrome-Supported-4285F4?style=for-the-badge&logo=google-chrome)
+![GitHub](https://img.shields.io/badge/GitHub-Ellison--Lee-181717?style=for-the-badge&logo=github)
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
+![Cursor](https://img.shields.io/badge/Cursor-IDE-000000?style=for-the-badge&logo=cursor)
 ![Release](https://img.shields.io/badge/Release-v1.0.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
