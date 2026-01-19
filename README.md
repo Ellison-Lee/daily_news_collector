@@ -1,5 +1,9 @@
 # Daily News Collector
-![daily_news_collector](https://raw.githubusercontent.com/pudding0503/github-badge-collection/main/gif/3.gif)
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/pudding0503/github-badge-collection/main/gif/3.gif" width="50%" alt="daily_news_collector">
+</div>
+
 <div align="center">
 
 ![Chrome](https://img.shields.io/badge/Chrome-Supported-000000?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=FFD700)
