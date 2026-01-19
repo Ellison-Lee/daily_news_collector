@@ -2,11 +2,13 @@
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/Ellison-Lee/daily_news_collector?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Ellison-Lee/daily_news_collector?style=social)
-![GitHub issues](https://img.shields.io/github/issues/Ellison-Lee/daily_news_collector)
-![GitHub license](https://img.shields.io/github/license/Ellison-Lee/daily_news_collector)
-![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)
+![Chrome](https://img.shields.io/badge/Chrome-Supported-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Ellison--Lee-181717?style=for-the-badge&logo=github&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-IDE-000000?style=for-the-badge&logo=cursor&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-Supported-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Release](https://img.shields.io/badge/Release-v1.0.0-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 一个强大的多平台热榜数据采集工具，支持 50+ 个主流平台的热榜数据采集与聚合。
 
@@ -105,9 +107,6 @@ Daily News Collector 是一个基于 Python 的异步热榜数据采集系统，
 ## 快速开始
 
 ### 环境要求
-
-![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)
-![pip](https://img.shields.io/badge/pip-latest-3776AB?style=flat-square&logo=python&logoColor=white)
 
 - Python 3.8+
 - pip
@@ -242,19 +241,6 @@ python run.py
 
 ## 技术栈
 
-<div align="left">
-
-![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)
-![asyncio](https://img.shields.io/badge/asyncio-异步框架-3776AB?style=flat-square&logo=python&logoColor=white)
-![aiohttp](https://img.shields.io/badge/aiohttp-HTTP客户端-2C5FAA?style=flat-square&logo=aiohttp&logoColor=white)
-![BeautifulSoup4](https://img.shields.io/badge/BeautifulSoup4-HTML解析-FF6B6B?style=flat-square&logo=beautifulsoup&logoColor=white)
-![lxml](https://img.shields.io/badge/lxml-XML解析-00A88E?style=flat-square&logo=xml&logoColor=white)
-![feedparser](https://img.shields.io/badge/feedparser-RSS解析-FF6600?style=flat-square&logo=rss&logoColor=white)
-![loguru](https://img.shields.io/badge/loguru-日志系统-4ECDC4?style=flat-square&logo=python&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-代码托管-181717?style=flat-square&logo=github&logoColor=white)
-
-</div>
-
 **主要技术：**
 - **异步框架**: asyncio
 - **HTTP 客户端**: aiohttp
@@ -327,8 +313,6 @@ python run.py
 欢迎提交 Issue 和 Pull Request！
 
 ## 许可证
-
-![License](https://img.shields.io/github/license/Ellison-Lee/daily_news_collector?style=flat-square)
 
 MIT License
 
