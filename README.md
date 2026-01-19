@@ -1,5 +1,5 @@
 # Daily News Collector
-![daily_news_collector](https://socialify.git.ci/Ellison-Lee/daily_news_collector/image?font=Source+Code+Pro&language=1&name=1&pattern=Solid&theme=Dark)
+![daily_news_collector](https://raw.githubusercontent.com/pudding0503/github-badge-collection/main/gif/3.gif)
 <div align="center">
 
 ![Chrome](https://img.shields.io/badge/Chrome-Supported-000000?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=FFD700)
@@ -105,6 +105,9 @@ Daily News Collector 是一个基于 Python 的异步热榜数据采集系统，
 
 ## 快速开始
 
+> [!IMPORTANT]
+> 确保你的 Python 版本 >= 3.8，否则可能无法正常运行。
+
 ### 环境要求
 
 - Python 3.8+
@@ -119,6 +122,10 @@ cd daily_news_collector
 ```
 
 2. **安装依赖**
+
+> [!TIP]
+> 建议使用虚拟环境来管理依赖，避免与系统 Python 环境冲突。
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -130,7 +137,8 @@ python run.py
 
 ### 配置说明
 
-项目支持通过环境变量进行配置（可选），创建 `.env` 文件：
+> [!NOTE]
+> 项目支持通过环境变量进行配置（可选），创建 `.env` 文件：
 
 ```bash
 # 缓存配置
@@ -251,15 +259,27 @@ python run.py
 
 ## 注意事项
 
-1. **请求频率** - 请合理设置并发限制，避免对目标服务器造成过大压力
-2. **认证信息** - 部分平台可能需要 Cookie 或 Token，请在 `.env` 文件中配置
-3. **缓存机制** - 默认启用缓存，如需强制刷新可删除 `cache/` 目录
-4. **日志管理** - 日志文件超过 5MB 时会自动截断，保留最新内容
-5. **反爬虫** - 部分平台可能有反爬虫机制，如遇到问题请检查请求头和认证信息
+> [!WARNING]
+> **请求频率** - 请合理设置并发限制，避免对目标服务器造成过大压力
+
+> [!IMPORTANT]
+> **认证信息** - 部分平台可能需要 Cookie 或 Token，请在 `.env` 文件中配置
+
+> [!NOTE]
+> **缓存机制** - 默认启用缓存，如需强制刷新可删除 `cache/` 目录
+
+> [!NOTE]
+> **日志管理** - 日志文件超过 5MB 时会自动截断，保留最新内容
+
+> [!CAUTION]
+> **反爬虫** - 部分平台可能有反爬虫机制，如遇到问题请检查请求头和认证信息
 
 ## 开发指南
 
 ### 添加新平台
+
+> [!TIP]
+> 添加新平台时，建议先查看现有平台的实现示例，了解不同采集器的使用方式。
 
 1. 在 `src/platforms/` 目录下创建新的平台文件
 2. 继承 `BasePlatform` 或相应的采集器类
