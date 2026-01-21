@@ -19,7 +19,6 @@ from .csdn import CsdnPlatform
 from .acfun import AcfunPlatform
 from .tieba import TiebaPlatform
 from .sspai import SspaiPlatform
-from .smzdm import SmzdmPlatform
 from .weread import WereadPlatform
 from .hupu import HupuPlatform
 from .douban_group import DoubanGroupPlatform
@@ -34,7 +33,6 @@ from .platform_52pojie import Platform52pojie
 from .github import GithubPlatform
 from .hackernews import HackernewsPlatform
 from .ngabbs import NgabbsPlatform
-from .ithome_xijiayi import IthomeXijiayiPlatform
 from .tophub_ai_brief import TopHubAIBriefPlatform
 from .wechat_hot import WechatHotPlatform
 from .jiqizhixin import JiqizhixinPlatform
@@ -69,7 +67,6 @@ PLATFORMS = {
     "acfun": AcfunPlatform,
     "tieba": TiebaPlatform,
     "sspai": SspaiPlatform,
-    "smzdm": SmzdmPlatform,
     "weread": WereadPlatform,
     "hupu": HupuPlatform,
     "douban-group": DoubanGroupPlatform,
@@ -84,7 +81,6 @@ PLATFORMS = {
     "github": GithubPlatform,
     "hackernews": HackernewsPlatform,
     "ngabbs": NgabbsPlatform,
-    "ithome-xijiayi": IthomeXijiayiPlatform,
     "tophub-ai-brief": TopHubAIBriefPlatform,
     "wechat-hot": WechatHotPlatform,
     "jiqizhixin": JiqizhixinPlatform,
@@ -101,11 +97,11 @@ PLATFORMS = {
 
 # 平台分类
 CATEGORIES = {
-    "新闻资讯": ["baidu", "toutiao", "ithome", "netease-news", "zhihu-daily", "36kr", "qq-news", "thepaper", "sina-news", "sina", "huxiu", "ifanr", "guokr", "jianshu", "ithome-xijiayi", "jiqizhixin", "qbitai", "readhub"],
+    "新闻资讯": ["baidu", "toutiao", "ithome", "netease-news", "zhihu-daily", "36kr", "qq-news", "thepaper", "sina-news", "sina", "huxiu", "ifanr", "guokr", "jianshu", "jiqizhixin", "qbitai", "readhub"],
     "社交媒体": ["weibo", "zhihu", "bilibili", "douyin", "acfun", "tieba", "kuaishou", "wechat-hot", "jike"],
     "技术社区": ["juejin", "v2ex", "csdn", "52pojie", "github", "hackernews", "oschina"],
     "娱乐内容": ["douban-movie", "douban-group", "weread", "ngabbs", "taptap"],
-    "生活消费": ["sspai", "smzdm", "hupu"],
+    "生活消费": ["sspai", "hupu"],
     "金融财经": ["xueqiu"],
     "设计创意": ["zcool"],
     "汽车": ["dongchedi", "autohome"],

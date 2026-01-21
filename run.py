@@ -15,17 +15,17 @@ async def run_all():
     """运行所有任务：数据采集 + AI总结"""
     
     # 1. 先运行数据采集
-    # await collect_data()
+    await collect_data()
     
     # 2. 然后运行AI总结
-    print("\n" + "=" * 80)
-    print("开始运行AI总结...")
-    print("=" * 80)
+    # print("\n" + "=" * 80)
+    # print("开始运行AI总结...")
+    # print("=" * 80)
     
-    try:
-        doubao_chat_example()
-    except Exception as e:
-        raise
+    # try:
+    #     doubao_chat_example()
+    # except Exception as e:
+    #     raise
 
 if __name__ == "__main__":
     asyncio.run(run_all())

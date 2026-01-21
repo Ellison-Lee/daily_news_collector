@@ -13,7 +13,7 @@
 ![Release](https://img.shields.io/badge/Release-v1.0.0-000000?style=for-the-badge&labelColor=FFD700)
 ![License](https://img.shields.io/badge/License-MIT-000000?style=for-the-badge&labelColor=FFD700)
 
-一个强大的多平台热榜数据采集工具，支持 50+ 个主流平台的热榜数据采集与聚合。
+一个强大的多平台热榜数据采集工具，支持 40+ 个主流平台的热榜数据采集与聚合。
 
 </div>
 
@@ -33,9 +33,9 @@ Daily News Collector 是一个基于 Python 的异步热榜数据采集系统，
 
 ## 支持的平台
 
-项目目前支持 **47 个平台**，涵盖以下类别：
+项目目前支持 **45 个平台**，涵盖以下类别：
 
-### 新闻资讯类（18个）
+### 新闻资讯类（17个）
 
 | 平台名称 | 平台标识符 | 平台名称 | 平台标识符 |
 |---------|-----------|---------|-----------|
@@ -46,8 +46,8 @@ Daily News Collector 是一个基于 Python 的异步热榜数据采集系统，
 | 新浪新闻 | `sina-news` | 新浪网 | `sina` |
 | 虎嗅 | `huxiu` | 爱范儿 | `ifanr` |
 | 果壳 | `guokr` | 简书 | `jianshu` |
-| IT之家「喜加一」 | `ithome-xijiayi` | 机器之心 | `jiqizhixin` |
-| 量子位 | `qbitai` | ReadHub | `readhub` |
+| 机器之心 | `jiqizhixin` | 量子位 | `qbitai` |
+| ReadHub | `readhub` | | |
 
 ### 社交媒体类（9个）
 
@@ -76,12 +76,11 @@ Daily News Collector 是一个基于 Python 的异步热榜数据采集系统，
 | 微信读书 | `weread` | NGA | `ngabbs` |
 | TapTap | `taptap` | | |
 
-### 生活消费类（3个）
+### 生活消费类（2个）
 
 | 平台名称 | 平台标识符 | 平台名称 | 平台标识符 |
 |---------|-----------|---------|-----------|
-| 少数派 | `sspai` | 什么值得买 | `smzdm` |
-| 虎扑 | `hupu` | | |
+| 少数派 | `sspai` | 虎扑 | `hupu` |
 
 ### 金融财经类（1个）
 
